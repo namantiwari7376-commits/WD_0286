@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Room Booking Form </title>
+    </head>
+    <body style="display: flex; justify-content: center; align-items: center;">
+        <div style="border: 2px solid black; border-top: 5px solid black; width: 50vw;" >
+
+                <h1 align="center">Hotel Room Booking Form</h1>
+                <form style="text-align: center;" action="#" method="post>
+                    <!--Name-->
+                    <label for="fullname">Full Name :</label> 
+                    <input type="text"  required>
+                    <br><br>
+
+                    <!--email-->
+                    <label for="Email">Email :</label>
+                    <input type="text"  required>
+                    <br><br>
+
+                    <!--Phone-->
+                    <label for="Phone :">Phone :</label>
+                    <input type="text" required>
+                    <br><br>
+
+                    <!--check In Date-->
+                    <label for="Check-In-Date :">Check-In-Date :</label>
+                    <input type="date" required>
+                    <br><br>
+
+                    <!--Check-Out-Date-->
+                    <label for="checkOutDate">Check-Out-Date :</label>
+                    <input type="date" required>
+                    <br><br>
+
+                    <!--Room Type-->
+                    <label for="RoomType">Roon type:</label>
+                    <select>
+                        <option>single Room </option>
+                        <option>Double Room</option>
+                        <option>Triple Room </option>
+                    </select>                
+                    <br><br>
+
+                    <!--No of Guests-->
+                    <label for="NumberOfGuests">Number of Guests:</label>
+                    <input type="number" required>
+                    <br><br>
+
+                    <!--Special Request-->
+                    <label for="SpecialRequest">Special Request: </label>
+                    <br>
+                    <textarea rows="8" cols="50"></textarea>
+                    <br><br>
+
+                    <!--buttons-->
+                    <button type="submit">Book now</button>
+                    <button type="reset">Reset</button>
+
+                </form>
+                <br><br>
+        </div>
+    </body>
+</html>
